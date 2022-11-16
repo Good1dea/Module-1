@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffbf09c5-abdc-4cc4-b75a-542fa8bcee7f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sydoruk/ArrayWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sydoruk/ArrayWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sydoruk/Lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sydoruk/Lock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

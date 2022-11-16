@@ -4,14 +4,14 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class ArrayWork {
+class ArrayWork {
 
     private int userChoice;
     private int arrayLength;
     private final Scanner scanner = new Scanner(System.in);
     private final Random random = new Random();
 
-    public int[] create(){
+    protected int[] create(){
         do {
             System.out.println("Write the size of the array more than 10 elements");
             if (scanner.hasNextInt()) {
@@ -28,7 +28,7 @@ public class ArrayWork {
         return array;
     }
 
-    public int[] sort(int[] array) {
+    protected int[] sort(int[] array) {
         do {
             System.out.println("Write 0 to select ascending array sorting or 1 to select descending array sorting");
             if (scanner.hasNextInt()) {
@@ -71,7 +71,7 @@ public class ArrayWork {
         return array;
     }
 
-    public int[] thirdPow(int[] array){
+    protected int[] thirdPow(int[] array){
         System.out.println("Raise every third element of the array to the third power:");
         for (int i = 2; i < array.length; i+=3) {
             array[i] = (int) Math.pow(array[i], 3);
@@ -79,7 +79,7 @@ public class ArrayWork {
         return array;
     }
 
-    public static void printArray(int[] array){
+    protected static void printArray(int[] array){
         System.out.println(Arrays.toString(array));
     }
 }

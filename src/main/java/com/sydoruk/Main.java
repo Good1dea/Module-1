@@ -14,10 +14,3 @@ public class Main {
         arrayLock.printArray();
     }
 }
-
-
-
-
-
-
-
